@@ -1,0 +1,14 @@
+<include>
+    <gateway name="bdwebs">
+        <param name="username" value="09617179089"/>
+        <param name="password" value="ku6m1pra04"/>
+        <param name="realm" value="202.40.176.2"/>
+        <param name="from-domain" value="202.40.176.2"/>
+        <param name="proxy" value="202.40.176.2"/>
+        <param name="register" value="true"/>
+        <param name="expire-seconds" value="600"/>
+        <param name="register-transport" value="udp"/>
+        <param name="retry-seconds" value="30"/>
+        <param name="caller-id-in-from" value="true"/>
+    </gateway>
+</include>

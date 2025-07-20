@@ -1,0 +1,4 @@
+libs/miniupnpc/libfreeswitch_la-minixml.lo: libs/miniupnpc/minixml.c \
+ /usr/include/stdc-predef.h libs/miniupnpc/minixml.h
+/usr/include/stdc-predef.h:
+libs/miniupnpc/minixml.h:
