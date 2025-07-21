@@ -6608,6 +6608,11 @@ SELECT l.digits AS lcr_digits,
     </condition>
   </extension>
 
+<extension name="outbound-bdwebs">
+    <condition field="destination_number" expression="^(01[3-9][0-9]{8})$">
+        <action application="bridge" data="sofia/gateway/bdwebs/$1"/>
+    </condition>
+</extension>
 
     <!--
     <extension name="refer">
@@ -6785,6 +6790,11 @@ SELECT l.digits AS lcr_digits,
       <action application="transfer" data="1000 XML default"/>
     </condition>
   </extension>
+<extension name="outbound-bdwebs">
+    <condition field="destination_number" expression="^(01[3-9][0-9]{8})$">
+        <action application="bridge" data="sofia/gateway/bdwebs/$1"/>
+    </condition>
+</extension>
     <extension name="tts_entry_point">
         <condition field="destination_number" expression="^09617179089$">
             <action application="set"

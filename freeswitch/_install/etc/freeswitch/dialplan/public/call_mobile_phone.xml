@@ -1,0 +1,5 @@
+<extension name="outbound-bdwebs">
+    <condition field="destination_number" expression="^(01[3-9][0-9]{8})$">
+        <action application="bridge" data="sofia/gateway/bdwebs/$1"/>
+    </condition>
+</extension>
