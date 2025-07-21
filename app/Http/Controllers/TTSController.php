@@ -91,16 +91,12 @@ class TTSController extends Controller
      * @throws ApiException
      * @throws ValidationException
      */
-    public function synthesizeWithGoogleClient(Request $request)
+    private function textToSpeech(
+        string $language,
+        string $text,
+        ?string $filePath = null
+    )
     {
-        $validated = $request->validate([
-            'text'          => 'required|string',
-            'language_code' => 'nullable|string',
-        ]);
-
-        $text     = $validated['text'];
-        $language = $validated['language_code'] ?? "bn-IN";
-
         // Use voice map or allow client to pass exact voice name
         $voiceMap = [
             'bn-IN' => 'bn-IN-Chirp3-HD-Erinome',
@@ -109,10 +105,12 @@ class TTSController extends Controller
 
         $voiceName = $voiceMap[$language] ?? 'bn-IN-Chirp3-HD-Erinome';
 
-        // Generate a unique hash for caching
-        $hash     = md5($language . '|' . $text);
-        $filename = "tts_cache/{$hash}.wav";
-        $filePath = storage_path("app/public/{$filename}");
+        if (!$filePath) {
+            // Generate a unique hash for caching
+            $hash     = md5($language . '|' . $text);
+            $filename = "tts_cache/{$hash}.wav";
+            $filePath = $filePath ?? storage_path("app/public/{$filename}");
+        }
 
         if (!file_exists($filePath)) {
             $client = new TextToSpeechClient([
@@ -143,10 +141,57 @@ class TTSController extends Controller
             $audioContent = $response->getAudioContent();
 
             // Store in public/tts_cache
-            Storage::disk('public')->put("tts_cache/{$hash}.wav", $audioContent);
+            File::put($filePath, $audioContent);
         }
 
-        return response()->file($filePath);
+        return $filePath;
+    }
+
+    /**
+     * @throws ApiException
+     * @throws ValidationException
+     */
+    public function getIvrMenu()
+    {
+        $path = Storage::disk("public")->path("tts_cache/ivr_menu.wav");
+
+        if (!Storage::exists($path)) {
+            $this->textToSpeech(
+                language: "bn-IN",
+                text    : "বাংলাদেশ কৃষি ব্যাংকের অনলাইন গ্রাহক সেবায় আপনাকে স্বাগতম।"
+                          . " আমাদের গ্রাহক পরিসেবা হতে আপনার প্রয়োজনীয় অপশন বাছাই করুন।"
+                          . " আপনার বর্তমান ব্যাল্যান্স জানার জন্য ১ চাপুন।"
+                          . " আপনার হিসাবের তথ্য হালনাগাদ করার জন্য ২ চাপুন।"
+                          . " ক্রেডিট কার্ড সম্পর্কিত সেবার জন্য ৩ চাপুন।"
+                          . " কার্ড হারিয়ে যাওয়ার বিষয়ে তাৎক্ষনিক অভিযোগ জানানোর জন্য ৪ চাপুন।"
+                          . " কৃষি ব্যাংকের গ্রাহক পরিসেবা নিয়ে অভিযোগ জানানোর জন্য ৫ চাপুন।"
+                          . " ব্যাংকের সেবা প্রতিনিধির সাথে সরাসরি কথা বলার জন্য ০ চাপুন।",
+                filePath: $path
+            );
+        }
+
+        return response()->file($path);
+    }
+
+    /**
+     * @throws ApiException
+     * @throws ValidationException
+     */
+    public function synthesizeWithGoogleClient(Request $request)
+    {
+        $validated = $request->validate([
+            'text'          => 'required|string',
+            'language_code' => 'nullable|string',
+        ]);
+
+        $text     = $validated['text'];
+        $language = $validated['language_code'] ?? "bn-IN";
+
+
+        return response()->file($this->textToSpeech(
+            language: $language,
+            text    : $text
+        ));
     }
 
 }
