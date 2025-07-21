@@ -182,41 +182,41 @@ src/libfreeswitch_la-switch_time.lo: src/switch_time.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
  src/include/private/switch_apr_pvt.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_errno.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_want.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_allocator.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_mutex.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_hash.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_strings.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_errno.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_want.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_allocator.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_mutex.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_hash.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_strings.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_portable.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_proc.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_io.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_time.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_info.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_user.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_tables.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_inherit.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_portable.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_proc.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_io.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_time.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_info.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_user.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_tables.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_inherit.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/resource.h \
  /usr/include/x86_64-linux-gnu/bits/resource.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_rusage.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_network_io.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_global_mutex.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_proc_mutex.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_dso.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_shm.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_network_io.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_global_mutex.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_proc_mutex.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_dso.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_shm.h \
  /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
  src/include/private/switch_core_pvt.h src/include/switch_profile.h \
@@ -462,41 +462,41 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
 src/include/private/switch_apr_pvt.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr.h:
 /usr/include/x86_64-linux-gnu/sys/wait.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_errno.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_want.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_allocator.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_mutex.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_hash.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_strings.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_errno.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_want.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_allocator.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_mutex.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_hash.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_strings.h:
 /usr/include/x86_64-linux-gnu/sys/uio.h:
 /usr/include/x86_64-linux-gnu/bits/uio-ext.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_portable.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_proc.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_io.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_time.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_info.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_user.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_tables.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_inherit.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_portable.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_proc.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_io.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_time.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_info.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_user.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_tables.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_inherit.h:
 /usr/include/x86_64-linux-gnu/sys/time.h:
 /usr/include/x86_64-linux-gnu/sys/resource.h:
 /usr/include/x86_64-linux-gnu/bits/resource.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_rusage.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_network_io.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_global_mutex.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_proc_mutex.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_dso.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_shm.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_network_io.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_global_mutex.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_proc_mutex.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_dso.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_shm.h:
 /usr/include/dirent.h:
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 /usr/include/x86_64-linux-gnu/bits/dirent_ext.h:

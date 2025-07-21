@@ -1,30 +1,30 @@
 
 
-switch_builddir=/home/wovosoft/sites/laravel-pbx/freeswitch
-switch_srcdir=/home/wovosoft/sites/laravel-pbx/freeswitch
+switch_builddir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch
+switch_srcdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch
 
 build=x86_64-pc-linux-gnu
 host=x86_64-pc-linux-gnu
 target=$(host)
 
-prefix=/home/wovosoft/sites/laravel-pbx/freeswitch/_install
-exec_prefix=/home/wovosoft/sites/laravel-pbx/freeswitch/_install
-libdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib
+prefix=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install
+exec_prefix=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install
+libdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib
 libexecdir=${exec_prefix}/libexec
-includedir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/include/freeswitch
-modulesdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod
-runtimedir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/run/freeswitch
-logfiledir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/log/freeswitch
+includedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/include/freeswitch
+modulesdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod
+runtimedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/run/freeswitch
+logfiledir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/log/freeswitch
 sysconfdir=${prefix}/etc
-localstatedir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/lib/freeswitch
-grammardir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/share/freeswitch/grammar
+localstatedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/lib/freeswitch
+grammardir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/share/freeswitch/grammar
 
 CC=gcc
 CXX=g++
 AWK=gawk
 SHELL=/bin/bash
 INSTALL=/bin/install -c
-GETLIB=cd /home/wovosoft/sites/laravel-pbx/freeswitch/libs && /bin/bash /home/wovosoft/sites/laravel-pbx/freeswitch/build/getlib.sh
+GETLIB=cd /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs && /bin/bash /home/wovosoft/sites/laravel-pbx-switch/freeswitch/build/getlib.sh
 LIBTOOL=$(SHELL) $(switch_builddir)/libtool
 AR=ar
 LTINSTALL=$(LIBTOOL) --quiet --mode=install $(INSTALL) 
@@ -38,8 +38,8 @@ OPENSSL_CFLAGS= -DHAVE_OPENSSL
 LIBS=$(switch_builddir)/libfreeswitch.la
 DEFS=-DHAVE_CONFIG_H
 
-DYLD_LIBRARY_PATH=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib:$DYLD_LIBRARY_PATH
-LD_LIBRARY_PATH=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib:$LD_LIBRARY_PATH
+DYLD_LIBRARY_PATH=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib:$DYLD_LIBRARY_PATH
+LD_LIBRARY_PATH=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib:$LD_LIBRARY_PATH
 OSARCH=`uname -s`
 LIBTOOL_LIB_EXTEN = la
 SOLINK = -shared -Xlinker -x
@@ -48,8 +48,8 @@ CFLAGS=-g -O2
 CXXFLAGS=-g -O2
 LDFLAGS=-luuid -lm  $(OUR_LDFLAGS)
 
-ALL_CFLAGS   = $(LOCAL_CFLAGS) $(MOD_CFLAGS) -I/usr/include/uuid -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src -fPIC -ffast-math -Werror -Wno-unused-result -Wno-misleading-indentation -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -ggdb -DHAVE_OPENSSL -g -O2  -Wall -std=c99 -pedantic -Wdeclaration-after-statement -D_GNU_SOURCE $(OUR_CFLAGS)
-ALL_CXXFLAGS = $(LOCAL_CFLAGS) $(MOD_CFLAGS) -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src -fPIC -ffast-math -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -O2 -D_GNU_SOURCE $(OUR_CFLAGS)
+ALL_CFLAGS   = $(LOCAL_CFLAGS) $(MOD_CFLAGS) -I/usr/include/uuid -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src -fPIC -ffast-math -Werror -Wno-unused-result -Wno-misleading-indentation -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -ggdb -DHAVE_OPENSSL -g -O2  -Wall -std=c99 -pedantic -Wdeclaration-after-statement -D_GNU_SOURCE $(OUR_CFLAGS)
+ALL_CXXFLAGS = $(LOCAL_CFLAGS) $(MOD_CFLAGS) -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src -fPIC -ffast-math -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -O2 -D_GNU_SOURCE $(OUR_CFLAGS)
 
 DEFAULT_VARS:= CFLAGS="$(CFLAGS)" CPPFLAGS="$(CXXFLAGS)" LDFLAGS="$(LDFLAGS)" CC="$(CC)" CXX="$(CXX)"
 DEFAULT_ARGS:= --build=$(build) --host=$(host) --target=$(target) \

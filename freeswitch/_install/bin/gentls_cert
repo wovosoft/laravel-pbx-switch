@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CONFDIR=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/etc/freeswitch/tls
+CONFDIR=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/etc/freeswitch/tls
 DAYS=2190
 KEY_SIZE=2048
 export KEY_SIZE=${KEY_SIZE}

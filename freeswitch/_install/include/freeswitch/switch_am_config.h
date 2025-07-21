@@ -9,7 +9,7 @@
 #define SWITCH_SSIZE_T ssize_t
 
 #define SWITCH_SIZEOF_VOIDP 8
-#define SWITCH_PREFIX_DIR "/home/wovosoft/sites/laravel-pbx/freeswitch/_install"
+#define SWITCH_PREFIX_DIR "/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install"
 
 #define SWITCH_SSIZE_T_FMT "ld"
 #define SWITCH_SIZE_T_FMT "ld"

@@ -203,32 +203,32 @@ mod_xml_rpc_la-mod_xml_rpc.lo: mod_xml_rpc.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h \
  /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server_abyss.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base64_int.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/token.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/http.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/thread.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/session.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/date.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/data.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/int.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server_abyss.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base64_int.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/token.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/http.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/thread.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/session.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/date.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/data.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/int.h \
  ws.h /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/openssl/ssl.h \
  /usr/include/openssl/macros.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
@@ -266,7 +266,7 @@ mod_xml_rpc_la-mod_xml_rpc.lo: mod_xml_rpc.c /usr/include/stdc-predef.h \
  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
  /usr/include/openssl/srtp.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h
 /usr/include/stdc-predef.h:
 ../../../../src/include/switch.h:
 ../../../../src/include/switch_am_config.h:
@@ -502,33 +502,33 @@ mod_xml_rpc_la-mod_xml_rpc.lo: mod_xml_rpc.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h:
 /usr/include/wchar.h:
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 /usr/include/x86_64-linux-gnu/sys/time.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server_abyss.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base64_int.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/token.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/http.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/thread.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/session.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/date.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/data.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/int.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/server_abyss.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/base64_int.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/token.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/http.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/thread.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/session.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/date.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/data.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/int.h:
 ws.h:
 /usr/include/x86_64-linux-gnu/sys/wait.h:
 /usr/include/openssl/ssl.h:
@@ -600,4 +600,4 @@ ws.h:
 /usr/include/openssl/tls1.h:
 /usr/include/openssl/dtls1.h:
 /usr/include/openssl/srtp.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/../lib/abyss/src/conn.h:

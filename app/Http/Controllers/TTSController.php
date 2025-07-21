@@ -2,8 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use Google\ApiCore\ApiException;
+use Google\ApiCore\ValidationException;
+use Google\Cloud\TextToSpeech\V1\AudioConfig;
+use Google\Cloud\TextToSpeech\V1\AudioEncoding;
+use Google\Cloud\TextToSpeech\V1\Client\TextToSpeechClient;
+use Google\Cloud\TextToSpeech\V1\SynthesisInput;
+use Google\Cloud\TextToSpeech\V1\SynthesizeSpeechRequest;
+use Google\Cloud\TextToSpeech\V1\VoiceSelectionParams;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
 
@@ -76,6 +85,68 @@ class TTSController extends Controller
         }
 
         return response()->file("storage/tts/{$filename}");
+    }
+
+    /**
+     * @throws ApiException
+     * @throws ValidationException
+     */
+    public function synthesizeWithGoogleClient(Request $request)
+    {
+        $validated = $request->validate([
+            'text'          => 'required|string',
+            'language_code' => 'nullable|string',
+        ]);
+
+        $text     = $validated['text'];
+        $language = $validated['language_code'] ?? "bn-IN";
+
+        // Use voice map or allow client to pass exact voice name
+        $voiceMap = [
+            'bn-IN' => 'bn-IN-Chirp3-HD-Erinome',
+            'en-US' => 'en-US-JennyNeural', // Example fallback
+        ];
+
+        $voiceName = $voiceMap[$language] ?? 'bn-IN-Chirp3-HD-Erinome';
+
+        // Generate a unique hash for caching
+        $hash     = md5($language . '|' . $text);
+        $filename = "tts_cache/{$hash}.wav";
+        $filePath = storage_path("app/public/{$filename}");
+
+        if (!file_exists($filePath)) {
+            $client = new TextToSpeechClient([
+                'credentials' => storage_path('app/private/google/tts-credentials.json'),
+            ]);
+
+            $synthesisInput = new SynthesisInput([
+                'text' => $text,
+            ]);
+
+            $voice = new VoiceSelectionParams([
+                'language_code' => $language,
+                'name'          => $voiceName,
+            ]);
+
+            $audioConfig = new AudioConfig([
+                'audio_encoding' => AudioEncoding::LINEAR16,
+                'speaking_rate'  => 1.05,
+            ]);
+
+            $request = new SynthesizeSpeechRequest([
+                'input'        => $synthesisInput,
+                'voice'        => $voice,
+                'audio_config' => $audioConfig,
+            ]);
+
+            $response     = $client->synthesizeSpeech($request);
+            $audioContent = $response->getAudioContent();
+
+            // Store in public/tts_cache
+            Storage::disk('public')->put("tts_cache/{$hash}.wav", $audioContent);
+        }
+
+        return response()->file($filePath);
     }
 
 }

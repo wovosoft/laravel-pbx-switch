@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -llua5.2 /home/wovosoft/sites/laravel-pbx/freeswitch/libfreeswitch.la -luuid -lsqlite3 -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lz -lpthread -lssl -lcrypto'
+dependency_libs=' -llua5.4 /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libfreeswitch.la -luuid -lsqlite3 -lfreetype -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lpthread -lpng16 -lz -lssl -lcrypto'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod'
-relink_command="(cd /home/wovosoft/sites/laravel-pbx/freeswitch/src/mod/languages/mod_lua; /bin/bash \"/home/wovosoft/sites/laravel-pbx/freeswitch/libtool\"  --silent --tag CXX --mode=relink g++ -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src -fPIC -ffast-math -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -I/usr/include/lua5.2 -g -O2 -avoid-version -module -no-undefined -shared -lm -luuid -lm -shared -Xlinker -x -llua5.2 -o mod_lua.la -rpath /home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod mod_lua_la-mod_lua.lo mod_lua_la-freeswitch_lua.lo mod_lua_la-mod_lua_wrap.lo /home/wovosoft/sites/laravel-pbx/freeswitch/libfreeswitch.la -lssl -lcrypto @inst_prefix_dir@)"
+libdir='/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod'
+relink_command="(cd /home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/mod/languages/mod_lua; /bin/bash \"/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libtool\"  --silent --tag CXX --mode=relink g++ -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src -fPIC -ffast-math -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -I/usr/include/lua5.4 -g -O2 -avoid-version -module -no-undefined -shared -lm -luuid -lm -shared -Xlinker -x -llua5.4 -o mod_lua.la -rpath /home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod mod_lua_la-mod_lua.lo mod_lua_la-freeswitch_lua.lo mod_lua_la-mod_lua_wrap.lo /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libfreeswitch.la -lssl -lcrypto @inst_prefix_dir@)"

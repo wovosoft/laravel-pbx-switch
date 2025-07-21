@@ -182,21 +182,21 @@ src/libfreeswitch_la-switch_vpx.lo: src/switch_vpx.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_encoder.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_codec.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_image.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_integer.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_decoder.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_frame_buffer.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8cx.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vp8.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_codec.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_encoder.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8dx.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8.h
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_encoder.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_codec.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_image.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_integer.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_decoder.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_frame_buffer.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8cx.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vp8.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_codec.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_encoder.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8dx.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8.h
 /usr/include/stdc-predef.h:
 src/include/switch.h:
 src/include/switch_am_config.h:
@@ -432,18 +432,18 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_encoder.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_codec.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_image.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_integer.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_decoder.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_frame_buffer.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8cx.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vp8.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/././vpx_codec.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/./vpx_encoder.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8dx.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vp8.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_encoder.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_codec.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_image.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_integer.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_decoder.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_frame_buffer.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8cx.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vp8.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/././vpx_codec.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/./vpx_encoder.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8dx.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vp8.h:

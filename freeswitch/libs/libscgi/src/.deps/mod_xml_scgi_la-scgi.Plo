@@ -1,6 +1,6 @@
 ../../../../libs/libscgi/src/mod_xml_scgi_la-scgi.lo: \
  ../../../../libs/libscgi/src/scgi.c /usr/include/stdc-predef.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libscgi/src/include/scgi.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libscgi/src/include/scgi.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/poll.h \
  /usr/include/x86_64-linux-gnu/sys/poll.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -139,7 +139,7 @@
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
 /usr/include/stdc-predef.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libscgi/src/include/scgi.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libscgi/src/include/scgi.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 /usr/include/poll.h:
 /usr/include/x86_64-linux-gnu/sys/poll.h:

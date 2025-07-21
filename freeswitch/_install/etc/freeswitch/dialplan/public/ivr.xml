@@ -1,37 +1,9 @@
 <include>
     <extension name="tts_entry_point">
         <condition field="destination_number" expression="^09617179089$">
-            <action application="answer"/>
-            <action application="sleep" data="1000"/>
-            <action application="set" data="tts_text=বাংলাদেশ কৃষি ব্যাংকে আপনাকে স্বাগতম। আমি বিকেবি এআই অ্যাসিস্ট্যান্ট। আপনার জন্য কি করতে পারি?"/>
-<!--            <action application="set" data="tts_text=Welcome to Bangladesh Krishi Bank! I am BKB AI Assistant What can I do for You?"/>-->
-<!--            <action application="set_audio_level" data="read 4"/>-->
+            <action application="set"
+                    data="tts_text=বাংলাদেশ কৃষি ব্যাংকে আপনাকে স্বাগতম। আপনার জন্য কি করতে পারি?"/>
             <action application="lua" data="ivr_welcome.lua"/>
-<!--            <action application="python" data="ivr_welcome.py"/>-->
-
-
-            <action application="hangup"/>
         </condition>
     </extension>
 </include>
-
-
-    <!--<include>-->
-    <!--<extension name="tts_static_playback">-->
-    <!--    <condition field="destination_number" expression="^09617179089$">-->
-    <!--        <action application="answer"/>-->
-    <!--        <action application="sleep" data="1000"/>-->
-    <!--        <action application="playback" data="http://your-laravel-site.com/storage/tts/welcome_bn.wav"/>-->
-    <!--        <action application="hangup"/>-->
-    <!--    </condition>-->
-    <!--</extension>-->
-    <!--</include>-->
-
-
-    <!--<include>-->
-    <!--  <extension name="ivr_entry_point">-->
-    <!--    <condition field="destination_number" expression="^09617179089$">-->
-    <!--      <action application="ivr" data="new_demo_ivr"/>-->
-    <!--    </condition>-->
-    <!--  </extension>-->
-    <!--</include>-->

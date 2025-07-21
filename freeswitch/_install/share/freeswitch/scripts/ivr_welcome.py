@@ -10,4 +10,5 @@ def handler(session, args):
 
     session.answer()
     session.execute("playback", tts_url)
+    session.execute("sleep", "1000")
     session.hangup()

@@ -15,8 +15,8 @@
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/girstring.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/girstring.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/strings.h \
@@ -24,7 +24,7 @@
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  ../../../../libs/xmlrpc-c/xmlrpc_config.h \
  ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h
 /usr/include/stdc-predef.h:
 /usr/include/ctype.h:
 /usr/include/features.h:
@@ -42,8 +42,8 @@
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/girstring.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/girstring.h:
 /usr/include/string.h:
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
@@ -52,4 +52,4 @@
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 ../../../../libs/xmlrpc-c/xmlrpc_config.h:
 ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:

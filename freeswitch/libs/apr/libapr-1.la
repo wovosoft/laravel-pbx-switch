@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib'
+libdir='/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib'

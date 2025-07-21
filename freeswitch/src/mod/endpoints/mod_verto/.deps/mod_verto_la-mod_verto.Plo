@@ -203,9 +203,9 @@ mod_verto_la-mod_verto.lo: mod_verto.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
  ../../../../src/include/switch_stun.h /usr/include/libks2/libks/ks.h \
  /usr/include/libks2/libks/ks_platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
@@ -291,7 +291,7 @@ mod_verto_la-mod_verto.lo: mod_verto.c /usr/include/stdc-predef.h \
  /usr/include/libks2/libks/ks_metrics.h mod_verto.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/pwd.h \
- /home/wovosoft/sites/laravel-pbx/freeswitch/src/mod/endpoints/mod_verto/mcast/mcast.h \
+ /home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/mod/endpoints/mod_verto/mcast/mcast.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/x86_64-linux-gnu/asm/param.h \
@@ -532,9 +532,9 @@ mod_verto_la-mod_verto.lo: mod_verto.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
 ../../../../src/include/switch_stun.h:
 /usr/include/libks2/libks/ks.h:
 /usr/include/libks2/libks/ks_platform.h:
@@ -671,7 +671,7 @@ mod_verto.h:
 /usr/include/x86_64-linux-gnu/sys/wait.h:
 /usr/include/x86_64-linux-gnu/sys/un.h:
 /usr/include/pwd.h:
-/home/wovosoft/sites/laravel-pbx/freeswitch/src/mod/endpoints/mod_verto/mcast/mcast.h:
+/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/mod/endpoints/mod_verto/mcast/mcast.h:
 /usr/include/x86_64-linux-gnu/sys/param.h:
 /usr/include/x86_64-linux-gnu/bits/param.h:
 /usr/include/linux/param.h:
