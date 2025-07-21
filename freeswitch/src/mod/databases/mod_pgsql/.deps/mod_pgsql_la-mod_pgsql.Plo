@@ -203,9 +203,9 @@ mod_pgsql_la-mod_pgsql.lo: mod_pgsql.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  /usr/include/postgresql/libpq-fe.h \
  /usr/include/postgresql/postgres_ext.h \
  /usr/include/postgresql/pg_config_ext.h \
@@ -448,9 +448,9 @@ mod_pgsql_la-mod_pgsql.lo: mod_pgsql.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 /usr/include/postgresql/libpq-fe.h:
 /usr/include/postgresql/postgres_ext.h:
 /usr/include/postgresql/pg_config_ext.h:

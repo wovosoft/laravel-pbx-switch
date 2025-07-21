@@ -1,8 +1,6 @@
 <include>
     <extension name="tts_entry_point">
         <condition field="destination_number" expression="^09617179089$">
-            <action application="set"
-                    data="tts_text=বাংলাদেশ কৃষি ব্যাংকে আপনাকে স্বাগতম। আপনার জন্য কি করতে পারি?"/>
             <action application="lua" data="ivr_welcome.lua"/>
         </condition>
     </extension>

@@ -203,9 +203,9 @@ mod_syslog_la-mod_syslog.lo: mod_syslog.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  /usr/include/syslog.h /usr/include/x86_64-linux-gnu/sys/syslog.h \
  /usr/include/x86_64-linux-gnu/bits/syslog-path.h \
  /usr/include/x86_64-linux-gnu/bits/syslog.h
@@ -444,9 +444,9 @@ mod_syslog_la-mod_syslog.lo: mod_syslog.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 /usr/include/syslog.h:
 /usr/include/x86_64-linux-gnu/sys/syslog.h:
 /usr/include/x86_64-linux-gnu/bits/syslog-path.h:

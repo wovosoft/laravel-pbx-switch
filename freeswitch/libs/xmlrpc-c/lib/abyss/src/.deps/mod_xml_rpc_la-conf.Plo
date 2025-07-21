@@ -61,17 +61,17 @@
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  ../../../../libs/xmlrpc-c/xmlrpc_config.h \
  ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -112,7 +112,7 @@
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/int.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/int.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -196,18 +196,18 @@
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 ../../../../libs/xmlrpc-c/xmlrpc_config.h:
 ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/inttypes.h:
 /usr/include/inttypes.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 /usr/include/stdint.h:
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/abyss_unixsock.h:
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 /usr/include/x86_64-linux-gnu/bits/socket.h:
@@ -255,7 +255,7 @@
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/int.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/int.h:
 /usr/include/unistd.h:
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 /usr/include/x86_64-linux-gnu/bits/environments.h:

@@ -203,9 +203,9 @@ mod_dptools_la-mod_dptools.lo: mod_dptools.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h
 /usr/include/stdc-predef.h:
 ../../../../src/include/switch.h:
 ../../../../src/include/switch_am_config.h:
@@ -441,6 +441,6 @@ mod_dptools_la-mod_dptools.lo: mod_dptools.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:

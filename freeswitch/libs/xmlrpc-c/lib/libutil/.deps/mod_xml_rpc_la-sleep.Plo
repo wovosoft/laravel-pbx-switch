@@ -20,9 +20,9 @@
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/sleep_int.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/sleep_int.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h
 /usr/include/stdc-predef.h:
 /usr/include/unistd.h:
 /usr/include/features.h:
@@ -45,6 +45,6 @@
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 /usr/include/linux/close_range.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/sleep_int.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/sleep_int.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:

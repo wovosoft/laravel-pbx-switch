@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libfreeswitch.la -luuid -lsqlite3 -lfreetype -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lpthread -lpng16 -lz -lssl -lcrypto'
+dependency_libs=' /home/wovosoft/sites/laravel-pbx/freeswitch/libfreeswitch.la -luuid -lsqlite3 -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lz -lpthread -lssl -lcrypto'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod'
-relink_command="(cd /home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/mod/codecs/mod_g729; /bin/bash \"/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libtool\"  --silent --tag CC --mode=relink gcc -I/usr/include/uuid -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src -fPIC -ffast-math -Werror -Wno-unused-result -Wno-misleading-indentation -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -ggdb -DHAVE_OPENSSL -Wall -std=c99 -pedantic -Wdeclaration-after-statement -DG729_PASSTHROUGH -g -O2 -avoid-version -module -no-undefined -shared -o mod_g729.la -rpath /home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod mod_g729_la-mod_g729.lo /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libfreeswitch.la -lssl -lcrypto @inst_prefix_dir@)"
+libdir='/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod'
+relink_command="(cd /home/wovosoft/sites/laravel-pbx/freeswitch/src/mod/codecs/mod_g729; /bin/bash \"/home/wovosoft/sites/laravel-pbx/freeswitch/libtool\"  --silent --tag CC --mode=relink gcc -I/usr/include/uuid -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src -fPIC -ffast-math -Werror -Wno-unused-result -Wno-misleading-indentation -fvisibility=hidden -DSWITCH_API_VISIBILITY=1 -DCJSON_API_VISIBILITY=1 -DHAVE_VISIBILITY=1 -g -ggdb -DHAVE_OPENSSL -Wall -std=c99 -pedantic -Wdeclaration-after-statement -DG729_PASSTHROUGH -g -O2 -avoid-version -module -no-undefined -shared -o mod_g729.la -rpath /home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod mod_g729_la-mod_g729.lo /home/wovosoft/sites/laravel-pbx/freeswitch/libfreeswitch.la -lssl -lcrypto @inst_prefix_dir@)"

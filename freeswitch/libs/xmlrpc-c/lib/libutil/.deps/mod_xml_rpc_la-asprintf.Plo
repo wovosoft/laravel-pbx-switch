@@ -67,12 +67,12 @@
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  ../../../../libs/xmlrpc-c/xmlrpc_config.h \
  ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h
 /usr/include/stdc-predef.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 /usr/include/stdio.h:
@@ -146,10 +146,10 @@
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 ../../../../libs/xmlrpc-c/xmlrpc_config.h:
 ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/string_int.h:
 /usr/include/string.h:
 /usr/include/strings.h:
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/lib/util/include/bool.h:

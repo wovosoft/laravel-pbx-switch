@@ -204,9 +204,9 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  /usr/local/include/spandsp.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/x86_64-linux-gnu/tiffio.h \
@@ -215,16 +215,13 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/include/x86_64-linux-gnu/tiffvers.h \
  /usr/local/include/spandsp/telephony.h \
  /usr/local/include/spandsp/alloc.h \
- /usr/local/include/spandsp/unaligned.h \
  /usr/local/include/spandsp/fast_convert.h \
  /usr/local/include/spandsp/logging.h \
  /usr/local/include/spandsp/complex.h \
  /usr/local/include/spandsp/bit_operations.h \
  /usr/local/include/spandsp/bitstream.h \
- /usr/local/include/spandsp/queue.h \
- /usr/local/include/spandsp/agc_float.h \
- /usr/local/include/spandsp/schedule.h /usr/local/include/spandsp/g711.h \
- /usr/local/include/spandsp/timing.h \
+ /usr/local/include/spandsp/queue.h /usr/local/include/spandsp/schedule.h \
+ /usr/local/include/spandsp/g711.h /usr/local/include/spandsp/timing.h \
  /usr/local/include/spandsp/math_fixed.h \
  /usr/local/include/spandsp/vector_float.h \
  /usr/local/include/spandsp/complex_vector_float.h \
@@ -252,15 +249,13 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/local/include/spandsp/sig_tone.h /usr/local/include/spandsp/fsk.h \
  /usr/local/include/spandsp/modem_connect_tones.h \
  /usr/local/include/spandsp/silence_gen.h /usr/local/include/spandsp/v8.h \
- /usr/local/include/spandsp/v80.h /usr/local/include/spandsp/godard.h \
  /usr/local/include/spandsp/v29rx.h /usr/local/include/spandsp/v29tx.h \
  /usr/local/include/spandsp/v17rx.h /usr/local/include/spandsp/v17tx.h \
  /usr/local/include/spandsp/v22bis.h \
  /usr/local/include/spandsp/v27ter_rx.h \
  /usr/local/include/spandsp/v27ter_tx.h /usr/local/include/spandsp/v42.h \
  /usr/local/include/spandsp/v42bis.h /usr/local/include/spandsp/v18.h \
- /usr/local/include/spandsp/timezone.h \
- /usr/local/include/spandsp/ssl_fax.h /usr/local/include/spandsp/t4_rx.h \
+ /usr/local/include/spandsp/timezone.h /usr/local/include/spandsp/t4_rx.h \
  /usr/local/include/spandsp/t4_tx.h \
  /usr/local/include/spandsp/image_translate.h \
  /usr/local/include/spandsp/t4_t6_decode.h \
@@ -285,16 +280,12 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/local/include/spandsp/ima_adpcm.h /usr/local/include/spandsp/g722.h \
  /usr/local/include/spandsp/g726.h /usr/local/include/spandsp/lpc10.h \
  /usr/local/include/spandsp/gsm0610.h /usr/local/include/spandsp/plc.h \
- /usr/local/include/spandsp/playout.h /usr/local/include/spandsp/sprt.h \
- /usr/local/include/spandsp/v150_1.h \
- /usr/local/include/spandsp/v150_1_sse.h \
- /usr/local/include/spandsp/expose.h /usr/include/jpeglib.h \
- /usr/include/x86_64-linux-gnu/jconfig.h /usr/include/jmorecfg.h \
- /usr/local/include/spandsp/private/logging.h \
+ /usr/local/include/spandsp/playout.h /usr/local/include/spandsp/expose.h \
+ /usr/include/jpeglib.h /usr/include/x86_64-linux-gnu/jconfig.h \
+ /usr/include/jmorecfg.h /usr/local/include/spandsp/private/logging.h \
  /usr/local/include/spandsp/private/schedule.h \
  /usr/local/include/spandsp/private/bitstream.h \
  /usr/local/include/spandsp/private/queue.h \
- /usr/local/include/spandsp/private/agc_float.h \
  /usr/local/include/spandsp/private/awgn.h \
  /usr/local/include/spandsp/private/noise.h \
  /usr/local/include/spandsp/private/bert.h \
@@ -324,8 +315,6 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/local/include/spandsp/private/fsk.h \
  /usr/local/include/spandsp/private/modem_connect_tones.h \
  /usr/local/include/spandsp/private/v8.h \
- /usr/local/include/spandsp/private/v80.h \
- /usr/local/include/spandsp/private/godard.h \
  /usr/local/include/spandsp/private/v17rx.h \
  /usr/local/include/spandsp/private/v17tx.h \
  /usr/local/include/spandsp/private/v22bis.h \
@@ -339,7 +328,6 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/local/include/spandsp/private/data_modems.h \
  /usr/local/include/spandsp/private/fax_modems.h \
  /usr/local/include/spandsp/private/timezone.h \
- /usr/local/include/spandsp/private/ssl_fax.h \
  /usr/local/include/spandsp/private/image_translate.h \
  /usr/local/include/spandsp/private/t4_t6_decode.h \
  /usr/local/include/spandsp/private/t4_t6_encode.h \
@@ -359,9 +347,6 @@ mod_spandsp_la-mod_spandsp_modem.lo: mod_spandsp_modem.c \
  /usr/local/include/spandsp/private/v18.h \
  /usr/local/include/spandsp/private/adsi.h \
  /usr/local/include/spandsp/private/ademco_contactid.h \
- /usr/local/include/spandsp/private/sprt.h \
- /usr/local/include/spandsp/private/v150_1_sse.h \
- /usr/local/include/spandsp/private/v150_1.h \
  /usr/local/include/spandsp/version.h udptl.h mod_spandsp_modem.h \
  ../../../../src/include/switch_private.h /usr/include/pty.h \
  /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
@@ -622,9 +607,9 @@ mod_spandsp.h:
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 /usr/local/include/spandsp.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 /usr/include/x86_64-linux-gnu/tiffio.h:
@@ -633,14 +618,12 @@ mod_spandsp.h:
 /usr/include/x86_64-linux-gnu/tiffvers.h:
 /usr/local/include/spandsp/telephony.h:
 /usr/local/include/spandsp/alloc.h:
-/usr/local/include/spandsp/unaligned.h:
 /usr/local/include/spandsp/fast_convert.h:
 /usr/local/include/spandsp/logging.h:
 /usr/local/include/spandsp/complex.h:
 /usr/local/include/spandsp/bit_operations.h:
 /usr/local/include/spandsp/bitstream.h:
 /usr/local/include/spandsp/queue.h:
-/usr/local/include/spandsp/agc_float.h:
 /usr/local/include/spandsp/schedule.h:
 /usr/local/include/spandsp/g711.h:
 /usr/local/include/spandsp/timing.h:
@@ -679,8 +662,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/modem_connect_tones.h:
 /usr/local/include/spandsp/silence_gen.h:
 /usr/local/include/spandsp/v8.h:
-/usr/local/include/spandsp/v80.h:
-/usr/local/include/spandsp/godard.h:
 /usr/local/include/spandsp/v29rx.h:
 /usr/local/include/spandsp/v29tx.h:
 /usr/local/include/spandsp/v17rx.h:
@@ -692,7 +673,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/v42bis.h:
 /usr/local/include/spandsp/v18.h:
 /usr/local/include/spandsp/timezone.h:
-/usr/local/include/spandsp/ssl_fax.h:
 /usr/local/include/spandsp/t4_rx.h:
 /usr/local/include/spandsp/t4_tx.h:
 /usr/local/include/spandsp/image_translate.h:
@@ -726,9 +706,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/gsm0610.h:
 /usr/local/include/spandsp/plc.h:
 /usr/local/include/spandsp/playout.h:
-/usr/local/include/spandsp/sprt.h:
-/usr/local/include/spandsp/v150_1.h:
-/usr/local/include/spandsp/v150_1_sse.h:
 /usr/local/include/spandsp/expose.h:
 /usr/include/jpeglib.h:
 /usr/include/x86_64-linux-gnu/jconfig.h:
@@ -737,7 +714,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/private/schedule.h:
 /usr/local/include/spandsp/private/bitstream.h:
 /usr/local/include/spandsp/private/queue.h:
-/usr/local/include/spandsp/private/agc_float.h:
 /usr/local/include/spandsp/private/awgn.h:
 /usr/local/include/spandsp/private/noise.h:
 /usr/local/include/spandsp/private/bert.h:
@@ -767,8 +743,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/private/fsk.h:
 /usr/local/include/spandsp/private/modem_connect_tones.h:
 /usr/local/include/spandsp/private/v8.h:
-/usr/local/include/spandsp/private/v80.h:
-/usr/local/include/spandsp/private/godard.h:
 /usr/local/include/spandsp/private/v17rx.h:
 /usr/local/include/spandsp/private/v17tx.h:
 /usr/local/include/spandsp/private/v22bis.h:
@@ -782,7 +756,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/private/data_modems.h:
 /usr/local/include/spandsp/private/fax_modems.h:
 /usr/local/include/spandsp/private/timezone.h:
-/usr/local/include/spandsp/private/ssl_fax.h:
 /usr/local/include/spandsp/private/image_translate.h:
 /usr/local/include/spandsp/private/t4_t6_decode.h:
 /usr/local/include/spandsp/private/t4_t6_encode.h:
@@ -802,9 +775,6 @@ mod_spandsp.h:
 /usr/local/include/spandsp/private/v18.h:
 /usr/local/include/spandsp/private/adsi.h:
 /usr/local/include/spandsp/private/ademco_contactid.h:
-/usr/local/include/spandsp/private/sprt.h:
-/usr/local/include/spandsp/private/v150_1_sse.h:
-/usr/local/include/spandsp/private/v150_1.h:
 /usr/local/include/spandsp/version.h:
 udptl.h:
 mod_spandsp_modem.h:

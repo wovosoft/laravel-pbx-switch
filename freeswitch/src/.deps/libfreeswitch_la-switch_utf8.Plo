@@ -183,9 +183,9 @@ src/libfreeswitch_la-switch_utf8.lo: src/switch_utf8.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h
 /usr/include/stdc-predef.h:
 src/include/switch_utf8.h:
 src/include/switch.h:
@@ -422,6 +422,6 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:

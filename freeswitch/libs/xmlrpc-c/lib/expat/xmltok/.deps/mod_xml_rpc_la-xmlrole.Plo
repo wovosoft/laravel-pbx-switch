@@ -52,7 +52,7 @@
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  ../../../../libs/xmlrpc-c/lib/expat/xmltok/xmlrole.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
  ../../../../libs/xmlrpc-c/lib/expat/xmltok/xmltok.h \
  ../../../../libs/xmlrpc-c/lib/expat/xmltok/ascii.h
 /usr/include/stdc-predef.h:
@@ -112,6 +112,6 @@
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 ../../../../libs/xmlrpc-c/lib/expat/xmltok/xmlrole.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
 ../../../../libs/xmlrpc-c/lib/expat/xmltok/xmltok.h:
 ../../../../libs/xmlrpc-c/lib/expat/xmltok/ascii.h:

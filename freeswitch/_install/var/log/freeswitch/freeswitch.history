@@ -89,3 +89,14 @@ shutdown\012
 oribdwebs/01764954227\040&echo()\012
 originate\040sofia/gateway/bdwebs/01764954227\040&echo()\012
 shutdown\012
+shutdown\012
+shutdown\012
+reloadxml\012
+reload\040mod_lua\012
+reload\040mod_lua\012
+reload\040mod_lua\012
+reload\040mod_lua\012
+shutdown\012
+reloadxml\012
+shutdown\012
+shutdown\012

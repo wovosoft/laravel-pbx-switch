@@ -203,9 +203,9 @@ mod_xml_cdr_la-mod_xml_cdr.lo: mod_xml_cdr.c /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  ../../../../src/include/switch_curl.h \
  /usr/include/x86_64-linux-gnu/curl/curl.h \
  /usr/include/x86_64-linux-gnu/curl/curlver.h \
@@ -452,9 +452,9 @@ mod_xml_cdr_la-mod_xml_cdr.lo: mod_xml_cdr.c /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 ../../../../src/include/switch_curl.h:
 /usr/include/x86_64-linux-gnu/curl/curl.h:
 /usr/include/x86_64-linux-gnu/curl/curlver.h:

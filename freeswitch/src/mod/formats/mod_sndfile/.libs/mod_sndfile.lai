@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -lm /home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/libfreeswitch.la -luuid -lsqlite3 -lfreetype -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lpthread -lpng16 -lz -lsndfile -lssl -lcrypto'
+dependency_libs=' -lm /home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/libfreeswitch.la -luuid -lsqlite3 -lcurl -lpcre -lspeex -lspeexdsp -ledit -ldl -lcrypt -lrt -L/usr/local/lib /usr/local/lib/libspandsp.la -ltiff -ljpeg /usr/local/lib/libsofia-sip-ua.la -lz -lpthread -lsndfile -lssl -lcrypto'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod'
+libdir='/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod'

@@ -182,9 +182,9 @@ src/libfreeswitch_la-switch_spandsp.lo: src/switch_spandsp.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  /usr/local/include/spandsp.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/x86_64-linux-gnu/tiffio.h \
@@ -193,16 +193,13 @@ src/libfreeswitch_la-switch_spandsp.lo: src/switch_spandsp.c \
  /usr/include/x86_64-linux-gnu/tiffvers.h \
  /usr/local/include/spandsp/telephony.h \
  /usr/local/include/spandsp/alloc.h \
- /usr/local/include/spandsp/unaligned.h \
  /usr/local/include/spandsp/fast_convert.h \
  /usr/local/include/spandsp/logging.h \
  /usr/local/include/spandsp/complex.h \
  /usr/local/include/spandsp/bit_operations.h \
  /usr/local/include/spandsp/bitstream.h \
- /usr/local/include/spandsp/queue.h \
- /usr/local/include/spandsp/agc_float.h \
- /usr/local/include/spandsp/schedule.h /usr/local/include/spandsp/g711.h \
- /usr/local/include/spandsp/timing.h \
+ /usr/local/include/spandsp/queue.h /usr/local/include/spandsp/schedule.h \
+ /usr/local/include/spandsp/g711.h /usr/local/include/spandsp/timing.h \
  /usr/local/include/spandsp/math_fixed.h \
  /usr/local/include/spandsp/vector_float.h \
  /usr/local/include/spandsp/complex_vector_float.h \
@@ -230,15 +227,13 @@ src/libfreeswitch_la-switch_spandsp.lo: src/switch_spandsp.c \
  /usr/local/include/spandsp/sig_tone.h /usr/local/include/spandsp/fsk.h \
  /usr/local/include/spandsp/modem_connect_tones.h \
  /usr/local/include/spandsp/silence_gen.h /usr/local/include/spandsp/v8.h \
- /usr/local/include/spandsp/v80.h /usr/local/include/spandsp/godard.h \
  /usr/local/include/spandsp/v29rx.h /usr/local/include/spandsp/v29tx.h \
  /usr/local/include/spandsp/v17rx.h /usr/local/include/spandsp/v17tx.h \
  /usr/local/include/spandsp/v22bis.h \
  /usr/local/include/spandsp/v27ter_rx.h \
  /usr/local/include/spandsp/v27ter_tx.h /usr/local/include/spandsp/v42.h \
  /usr/local/include/spandsp/v42bis.h /usr/local/include/spandsp/v18.h \
- /usr/local/include/spandsp/timezone.h \
- /usr/local/include/spandsp/ssl_fax.h /usr/local/include/spandsp/t4_rx.h \
+ /usr/local/include/spandsp/timezone.h /usr/local/include/spandsp/t4_rx.h \
  /usr/local/include/spandsp/t4_tx.h \
  /usr/local/include/spandsp/image_translate.h \
  /usr/local/include/spandsp/t4_t6_decode.h \
@@ -263,9 +258,7 @@ src/libfreeswitch_la-switch_spandsp.lo: src/switch_spandsp.c \
  /usr/local/include/spandsp/ima_adpcm.h /usr/local/include/spandsp/g722.h \
  /usr/local/include/spandsp/g726.h /usr/local/include/spandsp/lpc10.h \
  /usr/local/include/spandsp/gsm0610.h /usr/local/include/spandsp/plc.h \
- /usr/local/include/spandsp/playout.h /usr/local/include/spandsp/sprt.h \
- /usr/local/include/spandsp/v150_1.h \
- /usr/local/include/spandsp/v150_1_sse.h
+ /usr/local/include/spandsp/playout.h
 /usr/include/stdc-predef.h:
 src/include/switch.h:
 src/include/switch_am_config.h:
@@ -501,9 +494,9 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 /usr/local/include/spandsp.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 /usr/include/x86_64-linux-gnu/tiffio.h:
@@ -512,14 +505,12 @@ src/include/switch_vad.h:
 /usr/include/x86_64-linux-gnu/tiffvers.h:
 /usr/local/include/spandsp/telephony.h:
 /usr/local/include/spandsp/alloc.h:
-/usr/local/include/spandsp/unaligned.h:
 /usr/local/include/spandsp/fast_convert.h:
 /usr/local/include/spandsp/logging.h:
 /usr/local/include/spandsp/complex.h:
 /usr/local/include/spandsp/bit_operations.h:
 /usr/local/include/spandsp/bitstream.h:
 /usr/local/include/spandsp/queue.h:
-/usr/local/include/spandsp/agc_float.h:
 /usr/local/include/spandsp/schedule.h:
 /usr/local/include/spandsp/g711.h:
 /usr/local/include/spandsp/timing.h:
@@ -558,8 +549,6 @@ src/include/switch_vad.h:
 /usr/local/include/spandsp/modem_connect_tones.h:
 /usr/local/include/spandsp/silence_gen.h:
 /usr/local/include/spandsp/v8.h:
-/usr/local/include/spandsp/v80.h:
-/usr/local/include/spandsp/godard.h:
 /usr/local/include/spandsp/v29rx.h:
 /usr/local/include/spandsp/v29tx.h:
 /usr/local/include/spandsp/v17rx.h:
@@ -571,7 +560,6 @@ src/include/switch_vad.h:
 /usr/local/include/spandsp/v42bis.h:
 /usr/local/include/spandsp/v18.h:
 /usr/local/include/spandsp/timezone.h:
-/usr/local/include/spandsp/ssl_fax.h:
 /usr/local/include/spandsp/t4_rx.h:
 /usr/local/include/spandsp/t4_tx.h:
 /usr/local/include/spandsp/image_translate.h:
@@ -605,6 +593,3 @@ src/include/switch_vad.h:
 /usr/local/include/spandsp/gsm0610.h:
 /usr/local/include/spandsp/plc.h:
 /usr/local/include/spandsp/playout.h:
-/usr/local/include/spandsp/sprt.h:
-/usr/local/include/spandsp/v150_1.h:
-/usr/local/include/spandsp/v150_1_sse.h:

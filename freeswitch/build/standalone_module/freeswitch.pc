@@ -1,25 +1,25 @@
-prefix=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install
-exec_prefix=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install
-libdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch
+prefix=/home/wovosoft/sites/laravel-pbx/freeswitch/_install
+exec_prefix=/home/wovosoft/sites/laravel-pbx/freeswitch/_install
+libdir=/home/wovosoft/sites/laravel-pbx/freeswitch
 libexecdir=${exec_prefix}/libexec
-includedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include
-modulesdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/lib/freeswitch/mod
-runtimedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/run/freeswitch
-logfiledir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/log/freeswitch
+includedir=/home/wovosoft/sites/laravel-pbx/freeswitch/src/include
+modulesdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/lib/freeswitch/mod
+runtimedir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/run/freeswitch
+logfiledir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/log/freeswitch
 sysconfdir=${prefix}/etc
-confdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/etc/freeswitch
-dbdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/lib/freeswitch/db
-htdocsdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/share/freeswitch/htdocs
-localstatedir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/lib/freeswitch
-grammardir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/share/freeswitch/grammar
-soundsdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/share/freeswitch/sounds
-scriptdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/share/freeswitch/scripts
-recordingsdir=/home/wovosoft/sites/laravel-pbx-switch/freeswitch/_install/var/lib/freeswitch/recordings
+confdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/etc/freeswitch
+dbdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/lib/freeswitch/db
+htdocsdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/share/freeswitch/htdocs
+localstatedir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/lib/freeswitch
+grammardir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/share/freeswitch/grammar
+soundsdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/share/freeswitch/sounds
+scriptdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/share/freeswitch/scripts
+recordingsdir=/home/wovosoft/sites/laravel-pbx/freeswitch/_install/var/lib/freeswitch/recordings
 bindir=${exec_prefix}/bin
 
 Name: freeswitch
 Version: 1.10.13-dev
 Description: FreeSWITCH open source telephony platform
 Libs: -L${libdir} -lfreeswitch
-Cflags: -I${includedir} -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src
+Cflags: -I${includedir} -I/home/wovosoft/sites/laravel-pbx/freeswitch/src/include -I/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src
 

@@ -237,13 +237,13 @@ mod_lua_la-freeswitch_lua.lo: freeswitch_lua.cpp \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
- freeswitch_lua.h /usr/include/lua5.4/lua.h /usr/include/lua5.4/luaconf.h \
- /usr/include/x86_64-linux-gnu/lua5.4-deb-multiarch.h \
- /usr/include/lua5.4/lauxlib.h /usr/include/lua5.4/lua.h \
- /usr/include/lua5.4/lualib.h mod_lua_extra.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ freeswitch_lua.h /usr/include/lua5.2/lua.h /usr/include/lua5.2/luaconf.h \
+ /usr/include/x86_64-linux-gnu/lua5.2-deb-multiarch.h \
+ /usr/include/lua5.2/lauxlib.h /usr/include/lua5.2/lua.h \
+ /usr/include/lua5.2/lualib.h mod_lua_extra.h \
  ../../../../src/include/switch_cpp.h /usr/include/c++/11/string \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
@@ -556,16 +556,16 @@ mod_lua_la-freeswitch_lua.lo: freeswitch_lua.cpp \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 freeswitch_lua.h:
-/usr/include/lua5.4/lua.h:
-/usr/include/lua5.4/luaconf.h:
-/usr/include/x86_64-linux-gnu/lua5.4-deb-multiarch.h:
-/usr/include/lua5.4/lauxlib.h:
-/usr/include/lua5.4/lua.h:
-/usr/include/lua5.4/lualib.h:
+/usr/include/lua5.2/lua.h:
+/usr/include/lua5.2/luaconf.h:
+/usr/include/x86_64-linux-gnu/lua5.2-deb-multiarch.h:
+/usr/include/lua5.2/lauxlib.h:
+/usr/include/lua5.2/lua.h:
+/usr/include/lua5.2/lualib.h:
 mod_lua_extra.h:
 ../../../../src/include/switch_cpp.h:
 /usr/include/c++/11/string:

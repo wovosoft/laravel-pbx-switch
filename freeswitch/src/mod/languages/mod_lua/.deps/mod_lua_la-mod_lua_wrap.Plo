@@ -14,9 +14,9 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/lua5.4/lua.h \
+ /usr/include/lua5.2/lua.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/lua5.4/luaconf.h \
+ /usr/include/lua5.2/luaconf.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -26,8 +26,8 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/x86_64-linux-gnu/lua5.4-deb-multiarch.h \
- /usr/include/lua5.4/lauxlib.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/lua5.2-deb-multiarch.h \
+ /usr/include/lua5.2/lauxlib.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -42,7 +42,7 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/lua5.4/lua.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/lua5.2/lua.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -282,11 +282,11 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
  ../../../../src/include/switch_jitterbuffer.h \
  ../../../../src/include/switch_estimators.h \
  ../../../../src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  ../../../../src/include/switch_cpp.h freeswitch_lua.h \
- /usr/include/lua5.4/lualib.h mod_lua_extra.h mod_lua_extra.c
+ /usr/include/lua5.2/lualib.h mod_lua_extra.h mod_lua_extra.c
 /usr/include/stdc-predef.h:
 /usr/include/string.h:
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
@@ -304,9 +304,9 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
 /usr/include/strings.h:
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-/usr/include/lua5.4/lua.h:
+/usr/include/lua5.2/lua.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-/usr/include/lua5.4/luaconf.h:
+/usr/include/lua5.2/luaconf.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 /usr/include/limits.h:
@@ -317,8 +317,8 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-/usr/include/x86_64-linux-gnu/lua5.4-deb-multiarch.h:
-/usr/include/lua5.4/lauxlib.h:
+/usr/include/x86_64-linux-gnu/lua5.2-deb-multiarch.h:
+/usr/include/lua5.2/lauxlib.h:
 /usr/include/stdio.h:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -335,7 +335,7 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
-/usr/include/lua5.4/lua.h:
+/usr/include/lua5.2/lua.h:
 /usr/include/c++/11/stdlib.h:
 /usr/include/c++/11/cstdlib:
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
@@ -616,11 +616,11 @@ mod_lua_la-mod_lua_wrap.lo: mod_lua_wrap.cpp /usr/include/stdc-predef.h \
 ../../../../src/include/switch_jitterbuffer.h:
 ../../../../src/include/switch_estimators.h:
 ../../../../src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 ../../../../src/include/switch_cpp.h:
 freeswitch_lua.h:
-/usr/include/lua5.4/lualib.h:
+/usr/include/lua5.2/lualib.h:
 mod_lua_extra.h:
 mod_lua_extra.c:

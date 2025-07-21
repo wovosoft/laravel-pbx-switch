@@ -1,5 +1,5 @@
 src/libfreeswitch_la-g711.lo: src/g711.c /usr/include/stdc-predef.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/config.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/config.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -64,7 +64,7 @@ src/libfreeswitch_la-g711.lo: src/g711.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h src/include/g711.h
 /usr/include/stdc-predef.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/config.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/config.h:
 /usr/include/stdlib.h:
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 /usr/include/features.h:

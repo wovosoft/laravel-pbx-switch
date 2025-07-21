@@ -182,48 +182,48 @@ src/libfreeswitch_la-switch_rtp.lo: src/switch_rtp.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  src/include/switch_private.h src/include/switch_stun.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_network_io.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_network_io.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_errno.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_want.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_allocator.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_mutex.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_io.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_time.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_info.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_user.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_tables.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_errno.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_want.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_allocator.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_mutex.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_io.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_time.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_info.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_user.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_tables.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_inherit.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp_priv.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/config.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdbx.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/datatypes.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/integers.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/alloc.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_inherit.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp_priv.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/config.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdbx.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/datatypes.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/integers.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/alloc.h \
  /usr/include/byteswap.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/err.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/integers.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/cipher.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/crypto_types.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/auth.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/aes.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/crypto_kernel.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/cipher.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/auth.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/key.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdbx.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/err.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/integers.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/cipher.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/crypto_types.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/auth.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/aes.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/crypto_kernel.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/cipher.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/auth.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/key.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdbx.h \
  src/include/switch_ssl.h /usr/include/openssl/crypto.h \
  /usr/include/openssl/macros.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
@@ -500,49 +500,49 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 src/include/switch_private.h:
 src/include/switch_stun.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_network_io.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_network_io.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr.h:
 /usr/include/x86_64-linux-gnu/sys/wait.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_pools.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_errno.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_general.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_want.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_allocator.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_thread_mutex.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_io.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_time.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_file_info.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_user.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_tables.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_pools.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_errno.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_general.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_want.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_allocator.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_thread_mutex.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_io.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_time.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_file_info.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_user.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_tables.h:
 /usr/include/x86_64-linux-gnu/sys/uio.h:
 /usr/include/x86_64-linux-gnu/bits/uio-ext.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/apr/include/fspr_inherit.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp_priv.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/config.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/include/srtp.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdbx.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/datatypes.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/integers.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/alloc.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/apr/include/fspr_inherit.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp_priv.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/config.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/include/srtp.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdbx.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/datatypes.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/integers.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/alloc.h:
 /usr/include/byteswap.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/err.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/integers.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/cipher.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/crypto_types.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/auth.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/aes.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/crypto_kernel.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/cipher.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/auth.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/key.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/srtp/crypto/include/rdbx.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/err.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/integers.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/cipher.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/crypto_types.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/auth.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/aes.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/crypto_kernel.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/cipher.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/auth.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/key.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/srtp/crypto/include/rdbx.h:
 src/include/switch_ssl.h:
 /usr/include/openssl/crypto.h:
 /usr/include/openssl/macros.h:

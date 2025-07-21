@@ -1,6 +1,6 @@
 src/libfreeswitch_la-switch_core_video.lo: src/switch_core_video.c \
  /usr/include/stdc-predef.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_image.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_image.h \
  src/include/switch.h src/include/switch_am_config.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -184,59 +184,43 @@ src/libfreeswitch_la-switch_core_video.lo: src/switch_core_video.c \
  src/include/switch_core_media.h src/include/switch_msrp.h \
  src/include/switch_core_video.h src/include/switch_jitterbuffer.h \
  src/include/switch_estimators.h src/include/switch_vad.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h \
  src/include/switch_utf8.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/basic_types.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/compare.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/basic_types.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_argb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/planar_functions.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_argb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from_argb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/cpu_id.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/mjpeg_decoder.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/planar_functions.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate_argb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/row.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale_argb.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale_row.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/version.h \
- /home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/video_common.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/basic_types.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/compare.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/basic_types.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_argb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/planar_functions.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_argb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from_argb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/cpu_id.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/mjpeg_decoder.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/planar_functions.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate_argb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/row.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale_argb.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale_row.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/version.h \
+ /home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/video_common.h \
  src/../libs/stb/stb_image.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- src/../libs/stb/stb_image_write.h /usr/include/freetype2/ft2build.h \
- /usr/include/freetype2/freetype/config/ftheader.h \
- /usr/include/freetype2/freetype/freetype.h \
- /usr/include/freetype2/freetype/config/ftconfig.h \
- /usr/include/freetype2/freetype/config/ftoption.h \
- /usr/include/freetype2/freetype/config/ftstdlib.h \
- /usr/include/freetype2/freetype/config/integer-types.h \
- /usr/include/freetype2/freetype/config/public-macros.h \
- /usr/include/freetype2/freetype/config/mac-support.h \
- /usr/include/freetype2/freetype/fttypes.h \
- /usr/include/freetype2/freetype/ftsystem.h \
- /usr/include/freetype2/freetype/ftimage.h \
- /usr/include/freetype2/freetype/fterrors.h \
- /usr/include/freetype2/freetype/ftmoderr.h \
- /usr/include/freetype2/freetype/fterrdef.h \
- /usr/include/freetype2/freetype/ftglyph.h /usr/include/libpng16/png.h \
- /usr/include/libpng16/pnglibconf.h /usr/include/libpng16/pngconf.h
+ src/../libs/stb/stb_image_write.h
 /usr/include/stdc-predef.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libvpx/vpx/vpx_image.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libvpx/vpx/vpx_image.h:
 src/include/switch.h:
 src/include/switch_am_config.h:
 /usr/include/stdlib.h:
@@ -471,57 +455,38 @@ src/include/switch_core_video.h:
 src/include/switch_jitterbuffer.h:
 src/include/switch_estimators.h:
 src/include/switch_vad.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_generate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libteletone/src/libteletone_detect.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_generate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libteletone/src/libteletone_detect.h:
 src/include/switch_utf8.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/basic_types.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/compare.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/basic_types.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_argb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/planar_functions.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_argb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/convert_from_argb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/cpu_id.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/mjpeg_decoder.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/planar_functions.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/rotate_argb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/row.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale_argb.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/scale_row.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/version.h:
-/home/wovosoft/sites/laravel-pbx-switch/freeswitch/libs/libyuv/include/libyuv/video_common.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/basic_types.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/compare.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/basic_types.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_argb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/planar_functions.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_argb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/convert_from_argb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/cpu_id.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/mjpeg_decoder.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/planar_functions.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/rotate_argb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/row.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale_argb.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/scale_row.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/version.h:
+/home/wovosoft/sites/laravel-pbx/freeswitch/libs/libyuv/include/libyuv/video_common.h:
 src/../libs/stb/stb_image.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 src/../libs/stb/stb_image_write.h:
-/usr/include/freetype2/ft2build.h:
-/usr/include/freetype2/freetype/config/ftheader.h:
-/usr/include/freetype2/freetype/freetype.h:
-/usr/include/freetype2/freetype/config/ftconfig.h:
-/usr/include/freetype2/freetype/config/ftoption.h:
-/usr/include/freetype2/freetype/config/ftstdlib.h:
-/usr/include/freetype2/freetype/config/integer-types.h:
-/usr/include/freetype2/freetype/config/public-macros.h:
-/usr/include/freetype2/freetype/config/mac-support.h:
-/usr/include/freetype2/freetype/fttypes.h:
-/usr/include/freetype2/freetype/ftsystem.h:
-/usr/include/freetype2/freetype/ftimage.h:
-/usr/include/freetype2/freetype/fterrors.h:
-/usr/include/freetype2/freetype/ftmoderr.h:
-/usr/include/freetype2/freetype/fterrdef.h:
-/usr/include/freetype2/freetype/ftglyph.h:
-/usr/include/libpng16/png.h:
-/usr/include/libpng16/pnglibconf.h:
-/usr/include/libpng16/pngconf.h:
